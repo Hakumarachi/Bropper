@@ -1,7 +1,7 @@
 # BROPPER
 
 <p align="center">
-  A Blind ROP exploitation python tool
+  An automatic Blind ROP exploitation python tool
   <br>
   <br>
 </p>
