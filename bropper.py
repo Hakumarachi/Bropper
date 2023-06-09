@@ -98,7 +98,7 @@ class BROP:
         try:
             self.r = remote(self.host, self.port) if not reuse or not self.open else self.r
             self.open = True
-            self.r.recvuntil({f"{self.wait}\n"})
+            self.r.recvuntil({f"{self.wait}"})
             crash = False
             debug(f"# PAYLOAD : \np.send({payload})", append=True, display=False)
             self.r.send(payload)
